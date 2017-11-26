@@ -1,0 +1,120 @@
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.css"/>
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    transition: all 0.1s ease-in;
+}
+
+body, html {
+    min-height: 100%;
+}
+
+body {
+
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+.c-header {
+    background: url('../img/header.png');
+    background-size: cover;
+    min-height:1000px;
+    margin: -5px;
+    
+}
+.ba-header--logo{
+    margin-top: 50px;
+    width:139px;
+    height: 30px;
+    margin-left: 90px;
+}
+.ba-header--nav li{
+    display: inline-block;
+    list-style: none;
+    color: #fff;
+
+
+}
+.nav{
+    float:right;
+    margin-top: 0px;
+    margin-right: 10%;
+    }
+
+.ba-header--nav li a:active{
+    background: transparent;
+    border:1px solid #fff;
+    border-radius: 40px;
+    width: 120px;
+    height: 30px;
+
+}
+.ba-nav1{
+    margin-left: 20px;
+}
+a{
+ text-decoration: none;
+ color: #fff;
+}
+.ba-content--text{
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 500px;
+    font-size: 32px;
+
+}
+button{
+    background: transparent;
+    border:1px solid #fff;
+    border-radius: 40px;
+     color: #fff; 
+}
+button:hover{
+     color: #fff; 
+    }
+.ba-button--nav{
+    width: 100px;
+    height: 30px;
+
+}
+.ba-button{
+    border-radius: 40px;
+}
+.porfolio-text{
+    text-align: center;
+    padding-top: 90px;
+    color: #81868e;
+
+}
+
+.ba-porfolio--nav{
+    margin-top: 90px;
+    text-align: center;
+   margin-left: -50px;
+}
+.ba-porfolio--nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 50px;
+    font-size: 32px;
+    color: #81868e;
+  
+}
+.grid{
+    width: 1220px;
+    margin-left:750px;
+    padding-bottom: 50px;
+}
+.conteiner{
+background-color: #f3f3f3;
+margin-top: -90px;
+}
+.map{
+    height: 350px;
+    width: 100%;
+}
